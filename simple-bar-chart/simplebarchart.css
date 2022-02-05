@@ -1,0 +1,17 @@
+text {
+  fill: gray;
+  font-weight: 600;
+}
+
+text.textoverbar {
+  fill: white;
+}
+
+line {
+  stroke: gray;
+  stroke-width: 3px;
+}
+
+rect {
+  fill: indianred;
+}

@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Bar Chart</title>
+  <link rel="stylesheet" href="simplebarchart.css">
+</head>
+
+<body>
+  <div class="container">
+    <svg id="barChart" width="300" height="200">
+      <text y="20">A Simple Bar Chart</text>
+
+      <line x1='3' y1='30' x2='3' y2='142'></line>
+
+      <rect width='60' height='30' x='10' y='35'></rect>
+      <text x='20' y='55' class="textoverbar">Jack</text>
+      <text x='80' y='55'>60</text>
+
+      <rect width='90' height='30' x='10' y='70'></rect>
+      <text x='20' y='90' class="textoverbar">Jill</text>
+      <text x='110' y='90'>90</text>
+
+      <rect width='70' height='30' x='10' y='105'></rect>
+      <text x='20' y='125' class="textoverbar">Jane</text>
+      <text x='90' y='125'>70</text>
+
+      <line x1='2' y1='141' x2='140' y2='141'></line>
+    </svg>
+    <!-- We can use vanilla js to automate and make the code flexible, but essentially that's why we have D3 for! -->
+  </div>
+</body>
+
+</html>
