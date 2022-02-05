@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SVG for D3</title>
+  <link rel="stylesheet" href="svg.css" />
+</head>
+
+<body>
+  <div>
+    <!--
+      TYPE for Vidoes
+      
+      Understanding the concepts of SVG, one of the building blocks of D3.js based visualizations
+      
+      SVG stands for Scalable Vector Graphics
+      SVG is used to define vector-based graphics for the Web
+      SVG can integrate with the DOM
+      */
+      
+      /*
+      SPEAK for videos
+      For more information
+      https://developer.mozilla.org/en-US/docs/Web/SVG/Tutorial
+      
+      We will look at the basics of SVG here, those parts especially that are importnt for us to get staretd with D3.js
+      -->
+    <p>This is a circle created using svg 'circle' tag</p>
+    <svg width="300" height="200">
+      <!-- CIRCLE -->
+      <!-- Defualt size of the svg area is 300x150 -->
+      <!-- First Example of SVG -->
+      <circle cx="150" cy="100" r="97"></circle>
+      <!-- 
+        Talk about the different attributes. If cx and cy are not set, the circle's center is set to (0, 0). Talk about the .css file taking precedence over the inline attributes
+        -->
+      <!-- <p>Hello</p> -->
+      <!-- p tag gets pushd out of the svg tags -->
+      <!-- talk about the importanc eof adding div tags -->
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a rectangle created using svg 'rect' tag</p>
+    <svg width="300" height="200">
+      <!-- RECTANGLE -->
+      <!-- Rectangle is drawn from (25,25) -->
+      <rect width="250" height="150" x="25" y="25"></rect>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a square created using svg 'rect' tag</p>
+    <svg width="300" height="200">
+      <!-- SQUARE -->
+      <!-- Square is drawn from (75,25) -->
+      <rect width="150" height="150" x="75" y="25" class="square"></rect>
+      <!-- Specifying (x,y) draws the element starting from (x,y) instead of (0,0) -->
+    </svg>
+  </div>
+
+  <div>
+    <p>
+      This is a rectangle with rounded corners created using svg 'rect' tag
+    </p>
+    <svg width="300" height="200">
+      <!-- RECTANGLE -->
+      <!-- Rectangle is drawn from (25,25) -->
+      <rect width="250" height="150" x="25" y="25" rx="15" ry="15"></rect>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is an ellipse created using svg 'ellipse' tag</p>
+    <svg width="300" height="200">
+      <!-- ELLIPSE -->
+      <!-- Ellipse is drawn from (150,100) -->
+      <ellipse cx="150" cy="100" rx="125" ry="75"></ellipse>
+      <!-- In eelipse context, rx and ry are the horizontal and vertical radii respectively -->
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a transparent ellipse created using svg 'ellipse' tag</p>
+    <svg width="300" height="200">
+      <!-- ELLIPSE -->
+      <!-- Ellipse is drawn from (150,100) -->
+      <ellipse cx="150" cy="100" rx="125" ry="75" class="transparent"></ellipse>
+      <!-- In ellipse context, rx and ry are the horizontal and vertical radii respectively -->
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a line created using svg 'line' tag</p>
+    <svg width="300" height="200">
+      <!-- LINE -->
+      <!-- Line is drawn from (0,0) -->
+      <line x1="0" y1="0" x2="300" y2="200"></line>
+    </svg>
+  </div>
+
+  <!-- POLYGON. The ‘polygon’ element defines a closed shape consisting of a set of connected straight line segments.
+    -->
+  <div>
+    <p>This is a triangle created using svg 'polygon' tag</p>
+    <svg width="303" height="203">
+      <!-- TRIANGLE -->
+      <polygon points="0,200 150,0 300,200" class="triangle"></polygon>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a pentagon created using svg 'polygon' tag</p>
+    <svg width="303" height="203">
+      <!-- PENTAGON -->
+      <polygon points="60,100 150,0 240,100 200,200 100,200" class="pentagon"></polygon>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a star created using svg 'polygon' tag</p>
+    <svg width="300" height="200">
+      <!-- STAR -->
+      <polygon points="100,10 40,198 190,78 10,78 160,198"></polygon>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a colored star with borders created using svg 'polygon' tag</p>
+    <svg width="300" height="200">
+      <!-- COLORED STAR -->
+      <polygon points="100,10 40,198 190,78 10,78 160,198" class="coloredStar"></polygon>
+    </svg>
+  </div>
+
+  <div>
+    <p>This is a hollow star with borders created using svg 'polygon' tag</p>
+    <svg width="300" height="200">
+      <!-- HOLLOW STAR -->
+      <polygon points="100,10 40,198 190,78 10,78 160,198" class="hollowStar"></polygon>
+    </svg>
+  </div>
+
+  <!-- POLYLINE. The ‘polyline’ element defines a set of connected straight line segments. -->
+  <div>
+    <p>
+      A shape that is made up of several lines created using svg 'polyline'
+      tag
+    </p>
+    <svg width="300" height="200">
+      <!-- Typically, ‘polyline’ elements define open shapes. In case a fill attr is NOT provided then the shape appears to be closed -->
+      <!-- A shape with lines -->
+      <polyline points="10,10 35,20 50,40 80,110 135,150, 170,180"></polyline>
+    </svg>
+  </div>
+
+  <div>
+    <p>
+      A shape that is made up of several lines created using svg 'polyline'
+      tag
+    </p>
+    <svg width="300" height="200">
+      <!-- A step shape -->
+      <polyline points="0,3 30,3 30,30 60,30 60,60 90,60 90,90 120,90"></polyline>
+    </svg>
+  </div>
+
+  <!-- TEXT -->
+  <div>
+    <p>This is a text created using svg 'text' tag</p>
+    <svg width="300" height="200">
+      <!-- x parameter pushes the starting of the text and y parameter is needed to show the text in terms of the height -->
+      <text x="10" y="16" style="text-anchor: start;">
+        <!-- play with text-anchor -->
+        Lorem ipsum Lorem ipsum
+      </text>
+      <text x="0" y="32">
+        Lorem ipsum Lorem ipsum
+      </text>
+      <text x="20" y="48" font-size="10px">
+        Lorem ipsum Lorem ipsum
+      </text>
+      <a href="https://www.google.com" target="_blank">
+        <text x="20" y="64" font-size="10px">
+          Lorem ipsum Lorem ipsum
+        </text>
+      </a>
+    </svg>
+  </div>
+
+  <!-- PATH -->
+  <div>
+    <p>This is a path created using svg 'path' tag</p>
+    <!-- The most complex element in SVG. The following commands are available for path data:
+      M = moveto
+      L = lineto
+      H = horizontal lineto
+      V = vertical lineto
+      C = curveto
+      S = smooth curveto
+      Q = quadratic Bézier curve
+      T = smooth quadratic Bézier curveto
+      A = elliptical Arc
+      Z = closepath
+
+      Note: All of the commands above can also be expressed with lower letters. Capital letters means absolutely positioned, lower cases means relatively positioned.
+      -->
+    <svg width="300" height="200">
+      <path d="M130,0 L60,200 L200,200 Z"></path>
+    </svg>
+  </div>
+
+  <div>
+    <p>A simple curve created using svg 'path' tag</p>
+    <svg width="300" height="200">
+      <path d="M150,0 C30,90 25,10 50,10" fill="none" stroke="red"></path>
+      <!-- Providing the Z command closes the path -->
+    </svg>
+  </div>
+
+  <!-- GROUP CONTAINER -->
+  <!-- 
+      You can group several shapes in SVG with the <g> element.\
+      It's analogous to a <div> in HTML.
+      This is an invisible element and it's positioned at the center of coordinates.
+      CSS properties applied to a group affect all the objects it contains.
+      You can also apply matrix
+      transforms to groups to move, rotate and scale all its contents.
+      A group container can also contain other group containers.
+      Styles applied directly to individual elements in the groups have precedence and will override any styles declared at the group level.
+   -->
+  <div>
+    <p>A group container created using svg 'g' tag</p>
+    <svg width="300" height="200">
+      <g>
+        <rect width="250" height="150" x="25" y="25"></rect>
+        <text x='0' y='15'>Combined with a rectangle</text>
+        <!-- Comment out the rect and text in css file to see the effects of the 'g' element -->
+      </g>
+    </svg>
+  </div>
+
+  <!-- TRANSFORM -->
+
+  <div>
+    <p>SVG Transform using the transform attribute</p>
+    <!-- 
+      Matrix transforms are used to scale, translate, skew or rotate any shape or group, or the
+      entire SVG viewport. 
+      Transform commands are functions used in the transform attribute, in text notation and separated by spaces.
+      The order is significant.
+      If you call scale(.5) and then rotate(90) , the result will be
+      different if you call them in the reverse order.
+      In translate() , scale() and skew() , the first parameter is an x coordinate value, and the second, if present, the y coordinate.
+      In rotate() , the first parameter is an angle in degrees, and the next two parameters, if present, are the coordinates of the center of rotation (if not present, the object will rotate around 0,0.
+    -->
+    <svg width="300" height="200">
+      <g style="transform: rotate(20deg) translate(20px,20px) skewX(20deg) scale(0.5);">
+        <!-- First have only g and then add the transform to show the changes -->
+        <!-- Rotate is clockwise from (0,0) -->
+        <rect x="50" y="5" height="140" width="50"></rect>
+        <rect x="75" y="75" height="30" width="100"></rect>
+      </g>
+    </svg>
+  </div>
+
+  <!-- SVG VIEWPORT -->
+  <!-- 
+    You can configure the SVG viewport by changing the values in the viewBox attribute.
+    The viewBox attribute contains four numbers separated by spaces.The first two are the center of coordinates, which default to 0 0, and the last two are the width and height , which default to the declared or default height and width of the SVG.
+
+    For example, if you have an SVG with dimensions 400x300, the default viewport will be 0 0 400 300 . If you declare a viewBox of 0 0 800 600 , all the objects inside the SVG will be displayed at half the size, since a declared value of 100 is no longer 1/4 of the viewport's width, but 1/8. You can also change the origin of coordinates.
+   -->
+  <div>
+    <svg width="400" height="300" viewBox="-200 -150 400 300">
+      <line x1="0" y1="-300" x2="0" y2="300" />
+      <line y1="0" x1="-400" y2="0" x2="400" />
+      <rect x="-130" y="-130" height="20" width="200" fill="red" />
+      <rect x="130" y="-130" height="200" width="20" fill="blue" />
+      <rect x="0" y="100" height="20" width="200" fill="green" />
+      <rect x="-130" y="-65" height="200" width="20" fill="orange" />
+    </svg>
+  </div>
+
+  <!-- SVG CONTAINER NEEDED -->
+  <rect width="250" height="150" x="25" y="25"></rect>
+  <!-- needs svg container -->
+
+</body>
+
+</html>

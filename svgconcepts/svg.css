@@ -1,0 +1,73 @@
+circle {
+  fill: lightblue;
+  stroke: dodgerblue;
+  stroke-width: 3px;
+}
+
+rect {
+  fill: lightgreen;
+  stroke: seagreen;
+  stroke-width: 3px;
+}
+
+rect.square {
+  fill: sandybrown;
+  stroke: brown;
+  stroke-width: 3px;
+}
+
+ellipse {
+  fill: lightpink;
+  stroke: darkmagenta;
+  stroke-width: 3px;
+}
+
+ellipse.transparent {
+  fill-opacity: 0.5;
+  stroke-opacity: 0.5;
+}
+
+line {
+  stroke: darkorange;
+  stroke-width: 3px;
+}
+
+polygon.triangle {
+  fill: lightpink;
+  stroke: darkmagenta;
+  stroke-width: 3px;
+}
+
+polygon.pentagon {
+  fill: lightgoldenrodyellow;
+  stroke: gold;
+  stroke-width: 3px;
+}
+
+polygon.coloredStar {
+  fill-rule: nonzero;
+  fill: lightpink;
+  stroke: darkmagenta;
+  stroke-width: 3px;
+}
+
+polygon.hollowStar {
+  fill-rule: evenodd;
+  fill: lightpink;
+  stroke: darkmagenta;
+  stroke-width: 3px;
+}
+
+polyline {
+  fill: none;
+  stroke: black;
+  stroke-width: 3px;
+}
+
+text {
+  fill: salmon;
+}
+
+g{
+  fill: firebrick;
+}
