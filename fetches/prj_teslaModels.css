@@ -1,0 +1,109 @@
+*{
+  font-family: 'Inter';
+}
+body{
+  background-color: rgb(10, 10, 10);
+}
+#container{
+  width: 1100px;
+  height: 900px;
+  margin: auto;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-image: 
+    linear-gradient( rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8) ),
+    url('./teslaLogo.svg');
+  background-size:cover;
+  background-position: center;
+  border-radius: 10px;
+}
+#header{
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  text-align: center;
+}
+h1{
+  color:lightgray;
+  font-weight: 400;
+  margin: 0;
+  margin-bottom: 5px;
+  letter-spacing: 0.4px;
+}
+#mButtons{
+  margin: auto;
+  width: 500px;
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 2px;
+}
+button{
+  height: 20px;
+  width: 100px;
+  font-size: 12px;
+  font-weight: 500;
+  color: white;
+  /* background-color: rgb(233, 97, 97); */
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  letter-spacing: 0.3px;
+}
+/* button:focus{
+  color: rgb(233, 97, 97);
+  background-color: whitesmoke;
+  font-weight: 700;
+} */
+#mInfo{
+  height: 30px;
+  display: flex;
+  margin: auto;
+  justify-content: space-around;
+}
+#mInfo p{
+  color: lightgray;
+  margin: 5px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+hr{
+  outline: none;
+  border: none;
+  height: 1.5px;
+  background-color:lightgray;
+  margin: 0;
+}
+#charts{
+  width: 90%;
+  height: 700px;
+  margin: auto;
+}
+#charts svg{
+  width: 100%;
+  height: 100%;
+}
+#notes{
+  width: 80%;
+  margin: auto;
+}
+#notes p{
+  color: lightgray;
+  margin: 2px;
+  font-weight: 400;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+.domain,.tick line{
+  stroke: lightgray;
+}
+.tick text{
+  fill: lightgray;
+  font-size: 11px;
+  font-weight: 500;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project - Tesla</title>
+  <link rel="stylesheet" href="prj_teslaModels.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="header">
+      <h1>Tesla Models Comparision</h1>
+      <div id="mButtons">
+        <button id="mS">Model S</button>
+        <button id="m3">Model 3</button>
+        <button id="mX">Model X</button>
+        <button id="mY">Model Y</button>
+      </div>
+      <div id="mInfo"></div>
+      <hr>
+    </div>
+
+    <div id="charts">
+      <svg></svg>
+    </div>
+
+    <div id="notes">
+      <p>1. Circles are relationship between Price and Range | Size of the circle represents Cargo Space</p>
+      <p>2. Lines are relationship between Price and Power</p>
+    </div>
+
+  </div>
+
+  <script src="/d3minlib/d3.min_v6.31.js"></script>
+  <script src="prj_teslaModels.js"></script>
+</body>
+
+</html>
