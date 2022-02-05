@@ -1,0 +1,58 @@
+let fordData = [
+  {
+    year2018: {
+      firstQuarter: {
+        total: 244306,
+        truck: 109276,
+        suv: 82395,
+        car: 52635
+      },
+      secondQuarter: {
+        total: 230635,
+        truck: 100683,
+        suv: 84617,
+        car: 45335
+      },
+      thirdquarter: {
+        total: 197404,
+        truck: 93408,
+        suv: 66884,
+        car: 37112
+      },
+      fourthquarter: {
+        total: 220774,
+        truck: 106599,
+        suv: 79225,
+        car: 34950
+      }
+    }
+  },
+  {
+    year2019: {
+      firstQuarter: {
+        total: 590249,
+        truck: 278898,
+        suv: 213086,
+        car: 98265
+      },
+      secondQuarter: {
+        total: 650336,
+        truck: 324243,
+        suv: 215898,
+        car: 110195
+      },
+      thirdquarter: {
+        total: 580251,
+        truck: 309920,
+        suv: 193100,
+        car: 77231
+      },
+      fourthquarter: {
+        total: 601862,
+        truck: 330075,
+        suv: 208387,
+        car: 63400
+      }
+    }
+  }
+];

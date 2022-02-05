@@ -1,0 +1,87 @@
+*{
+font-family: 'Inter';
+/* box-sizing: border-box; */
+}
+body{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+/*  */
+.flex-row{
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  align-content: center;
+}
+#title{
+  width: 80%;
+}
+#title h1{
+  font-size: 42px;
+  color:#054086;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+
+}
+#title p{
+  font-size: 20px;
+  font-weight: 500;
+  color: rgb(63,63,63);
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+#image{
+  width: 20%;
+  background-image: url('./logo.png');
+  background-repeat: no-repeat;
+  background-position: center;
+}
+/*  */
+#gen-info{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  background-color: #054086;
+  color: white;
+  padding: 10px 5px;
+  width: 100px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 15px;
+  font-family: 'Inter';
+  font-weight: 600;
+  letter-spacing: 1px;
+  outline: none;
+}
+/*  */
+#charts{
+  display: flex;
+  border: 1px solid rgb(211, 211, 211);
+  height: 300px;
+}
+#charts #years{
+  width: 25%;
+  padding: 5px;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+#charts #quarters{
+  width: 40%;
+  padding: 5px;
+  border-right: 1px solid rgb(211, 211, 211);
+}
+#charts #vehicles{
+  width: 35%;
+  padding: 5px;
+}
+#charts p{
+  margin: 0;
+  font-size: 16px;
+  color: rgb(109, 109, 109);
+  font-weight: 600;
+  text-align: center;
+}
+#charts svg{
+  width: 100%;
+  height: 100%;
+}
