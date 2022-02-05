@@ -1,0 +1,45 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  width: 800px;
+  height: 500px;
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+}
+#inputs{
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  width: 380px;
+  justify-content: space-around;
+  background-color: rgba(3, 110, 129, 0.767);
+  border-radius: 5px;
+}
+label{
+  font-size: 25px;
+  font-weight: 500;
+  color: aliceblue;
+}
+input,button{
+  background-color: white;
+  border: none;
+  font-size: 25px;
+  font-weight: 300;
+  outline: none;
+  border-radius: 5px;
+}
+button{
+  cursor: pointer;
+  background-color: rgb(255, 255, 255);
+}
+#output svg{
+  width: 380px;
+  height: 100%;
+  border-radius: 5px;
+}
+#output svg rect{
+  height: 100%;
+  width: 100%;  
+}

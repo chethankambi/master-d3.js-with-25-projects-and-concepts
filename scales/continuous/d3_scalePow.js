@@ -1,0 +1,1 @@
+let powerScale = d3.scalePow();

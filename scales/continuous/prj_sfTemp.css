@@ -1,0 +1,52 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  height: 800px;
+  width: 960px;
+  background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ),url('/scales/continuous/sf.jpg');
+  margin: auto;
+  border-radius: 15px;
+  background-repeat: no-repeat;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#header{
+  height: 150px;
+  width: 90%;
+  margin: auto;
+}
+#header h1{
+  font-weight: 300;
+  font-size: 55px;
+  color: aliceblue;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#header p{
+  margin-top: 0;
+  font-size: 20px;
+  font-weight: 350;
+  color: khaki;
+}
+hr{
+ border: none; 
+ height: 1px;
+ background-color: lightgoldenrodyellow;
+}
+#chart{
+  height: 600px;
+  width: 90%;
+  margin: auto;
+}
+#chart svg{
+  height: 100%;
+  width: 100%;
+}

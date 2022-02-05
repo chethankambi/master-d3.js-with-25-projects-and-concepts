@@ -1,0 +1,44 @@
+*{
+  font-family: "Inter";
+}
+#container{
+  height: 700px;
+  width: 700px;
+  margin: auto;
+  border: 2px solid lightgray;
+  border-radius: 5px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#header{
+  width: 90%;
+  margin: auto;
+  height: 100px;
+  justify-content: center;
+}
+h1{
+  color: gray;
+  margin: 10px 0 10px 0;
+}
+p{
+  font-weight: 600;
+  margin: 0;
+  color: darkgray;
+}
+hr{
+  border: 1px solid lightgray;
+  margin: 0;
+}
+#chart{
+  width: 90%;
+  height: 580px;
+  margin: auto;
+}
+#chart svg{
+  width: 100%;
+  height: 100%;
+}

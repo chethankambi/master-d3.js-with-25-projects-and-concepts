@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project - Quantile</title>
+  <link rel="stylesheet" href="prj_airQuality.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="header">
+      <h2>Air Quality Check</h2>
+    </div>
+
+    <hr>
+
+    <div id="input">
+      <p>Enter a value >= 0</p>
+      <hr>
+      <p>A value of > 179 means that you need to leave that place!</p>
+      <hr>
+      <p>(Value is Particulate Matter in &micro;g/m<sup>3</sup>)</p>
+      <input type="text">
+      <button>GO</button>
+    </div>
+
+    <hr>
+
+    <div id="output">
+      <svg>
+        <rect></rect>
+      </svg>
+      <p></p>
+    </div>
+
+  </div>
+
+  <script src="/d3minlib/d3.min_v6.20.js"></script>
+  <script src="prj_airQuality.js"></script>
+</body>
+
+</html>

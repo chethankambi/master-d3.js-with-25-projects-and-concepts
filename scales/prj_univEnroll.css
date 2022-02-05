@@ -1,0 +1,56 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  width:700px;
+  height:650px;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: inline-block;
+  position: fixed;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+#header{
+  width: 95%;
+  height: 140px;
+  margin: auto;
+  text-align: center;
+}
+h2{
+  letter-spacing: .5px;
+  font-weight: 700;
+  color: dimgray;
+  margin-bottom: 0;
+  margin-top: 10px;
+}
+p{
+  color: gray;
+  font-weight: 500;
+}
+hr{
+  border: none;
+  background-color: gray;
+  height: 1px;
+  margin: 0;
+}
+#legend{
+  display: flex;
+  justify-content: space-around;
+}
+#legend p{
+  font-weight: 700;
+  font-size: 22px;
+}
+#chart{
+  width: 95%;
+  height: 500px;
+  margin: auto;
+}
+#chart svg{
+  height: 100%;
+  width: 100%;
+}

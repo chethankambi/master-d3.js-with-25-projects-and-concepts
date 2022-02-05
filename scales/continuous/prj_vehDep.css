@@ -1,0 +1,48 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  max-width: 70%;
+  margin: auto;
+  height: 700px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+#header{
+  border-bottom: 1px solid lightgray;
+  border-top: 1px solid lightgray;
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+label{
+  color: gray;
+  font-size: 24px;
+  font-weight: 500;
+}
+input,button{
+  height: 80px;
+  width:150px;
+  border:1px solid rgb(204, 204, 204);
+  border-radius: 5px;
+  color: gray;
+  font-size: 24px;
+  font-weight: 500;
+  outline: none;
+  background-color: rgb(253, 253, 253);
+}
+button{
+  height: 84px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+svg{
+  height: 600px;
+  width: 100%;
+}

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Project Band</title>
+  <link rel="stylesheet" href="prj_bbPoints.css">
+</head>
+
+<body>
+
+  <div id="container">
+    <h2>BasketBall Points Proportions</h2>
+    <div id="inputs">
+      <div>
+        <label># of 1 pointers</label>
+        <input type="text" id='one'>
+      </div>
+      <div>
+        <label># of 2 pointers</label>
+        <input type="text" id='two'>
+      </div>
+      <div>
+        <label># of 3 pointers</label>
+        <input type="text" id='three'>
+      </div>
+    </div>
+    <button>Check Proportions!</button>
+    <hr>
+    <div id="output">
+      <svg></svg>
+    </div>
+    <hr>
+  </div>
+
+  <script src="/d3minlib/d3.min_v6.31.js"></script>
+  <script src="prj_bbPoints.js"></script>
+</body>
+
+</html>
