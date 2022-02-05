@@ -1,0 +1,51 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  width: 800px;
+  height: 700px;
+  margin: auto;
+  text-align: center;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+}
+#header{
+  height: 50px;
+  width:95%;
+  margin: auto;
+  line-height: 50px;
+}
+h1{
+  color: cornflowerblue;
+  margin:5px;
+}
+hr{
+  outline: none;
+  border: none;
+  height: 2px;
+  background-color: cornflowerblue;
+  margin: 2px;
+}
+#chart1{
+  width: 95%;
+  /* height: 325px; */
+  height: 650px;
+  margin: auto;
+}
+svg{
+  width: 100%;
+  height: 100%;
+  margin: auto;
+}
+.domain, .tick line{
+  stroke: cornflowerblue;
+}
+.tick text{
+  fill: cornflowerblue;
+  font-size: 10px;
+  font-weight: 600;
+}

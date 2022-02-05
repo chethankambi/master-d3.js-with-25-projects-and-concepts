@@ -1,0 +1,69 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  width: 1000px;
+  height:800px;
+  display: inline-block;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+#header{
+  width: 95%;
+  height: 100px;
+  margin: auto;
+}
+#header h1,p{
+  margin: 0;
+  margin-top: 5px;
+  color: gray;
+  letter-spacing: 0.3px;
+  margin-bottom: 5px;
+}
+hr{
+  border: none;
+  outline: none;
+  height: 1px;
+  background-color: gray;
+  margin: 0;
+}
+#chart{
+  width: 95%;
+  height: 600px;
+  margin: auto;
+}
+#chart svg{
+  width: 100%;
+  height: 100%;
+}
+#legend1,#legend2{
+  width: 95%;
+  height: 45px;
+  margin: auto;
+  display: flex;
+  justify-content: space-around;
+}
+#legend1,#legend2{
+  line-height: 40px;
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: 0.5px;
+}
+#legend2 div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.domain, .tick line{
+  stroke: gray;
+}
+.tick text{
+  fill: gray;
+  font-weight: 500;
+}
