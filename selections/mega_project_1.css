@@ -1,0 +1,116 @@
+body{
+  box-sizing: border-box;
+}
+#container{
+  width: 1200px;
+  max-height: 1200px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  border:2px solid rgba(47, 79, 79, 0.548);
+  border-radius: 5px;
+}
+/*  */
+#section1{
+  display: flex;
+}
+/*  */
+#header{
+  width: 200px;
+  height: 200px;
+  background-color: rgba(169, 200, 200, 0.103);
+  display: flex;
+  border-bottom:2px solid rgba(47, 79, 79, 0.548);
+}
+#header h1{
+  margin: auto;
+  padding: 10px;
+  color: darkslategray;
+  font-weight: 600;
+  font-size: 30px;
+}
+/*  */
+#snapshot1{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  flex-direction: column;
+  border:2px solid rgba(47, 79, 79, 0.548);
+  border-top: 0;
+}
+#snapshot1 h2,#snapshot1 p{
+  color: lightslategray;
+  font-weight: 500;
+  font-size: 18px;
+  margin: 2px;
+  padding-left: 20px;
+}
+h2 span, p span{
+  color: darkslategray;
+}
+/*  */
+#snapshot2{
+  width: 500px;
+  height: 200px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border-bottom:2px solid rgba(47, 79, 79, 0.548);
+}
+#snapshot2 h2{
+  color: lightslategray;
+  font-weight: 400;
+}
+#snapshot2 p{
+  color: darkslategray;
+  font-weight: 500;
+  font-size: 30px;
+  letter-spacing: 2px;
+}
+#fb,#tw,#li{
+  text-align: center;
+}
+/*  */
+#section2{
+  display: flex;
+}
+/*  */
+#list{
+  min-width: 200px;
+  max-height: 1000px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  border-right: 2px solid rgba(47, 79, 79, 0.548);
+}
+#list div{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+}
+#list div h3{
+  color: darkslategray;
+  font-weight: 600;
+  font-size: 18px;
+  cursor: pointer;
+  border-bottom: 1px solid darkslategray;
+}
+#list div input{
+  cursor: pointer;
+  margin: 10px;
+}
+/*  */
+#charts{
+  display: flex;
+  max-height: 1000px;
+  max-width: 1000px;
+}
+.charttitle{
+  text-align: center;
+  color: darkslategray;
+  font-weight: 600;
+  margin: 10px 0 10px 0;
+  font-size: 22px;
+}
