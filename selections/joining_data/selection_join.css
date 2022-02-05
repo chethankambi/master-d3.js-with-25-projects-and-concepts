@@ -1,0 +1,9 @@
+#circles{
+  width: 200px;
+  height: 100px;
+  background-color:black;
+  border-radius: 10px;
+}
+circle{
+  fill: palevioletred;
+}
