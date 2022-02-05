@@ -1,0 +1,27 @@
+.gray {
+  color: gray;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+.linecolor {
+  stroke: orangered;
+}
+
+.linewidth {
+  stroke-width: 10px;
+}
+
+.linecap {
+  stroke-linecap: butt;
+}
+
+.linedasharray {
+  stroke-dasharray: 10 10;
+}
+
+.lineopacity {
+  stroke-opacity: 0.5;
+}

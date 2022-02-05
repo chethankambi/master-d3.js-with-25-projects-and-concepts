@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Modifying Elements</title>
+  <link rel="stylesheet" href="mini_project_2.css">
+</head>
+
+<body>
+
+  <div id="container">
+
+    <div id="title">
+      <h1>Mini Project-2: Modifying Elements</h1>
+      <p>Top 10 grossing english movies for 2019</p>
+    </div>
+
+    <div id="movieinfo">
+      <div id="movielist"></div>
+      <div id="moviepost"></div>
+    </div>
+
+    <form id='choicesubmit'>
+      <!-- <label>All</label>
+      <input id='all' type="checkbox"> -->
+      <label>U</label>
+      <input id='cbu' type="checkbox">
+      <label>15</label>
+      <input id='cb15' type="checkbox">
+      <label>12A</label>
+      <input id='cb12a' type="checkbox">
+      <label>PG</label>
+      <input id='cbpg' type="checkbox">
+      <br>
+      <input id="submit" value="Submit" type="submit">
+    </form>
+    <p id="feedback"></p>
+
+    <div id="charts">
+      <div id="cont"></div>
+      <div id="legend"></div>
+      <svg id="gross"></svg>
+      <svg id="dura"></svg>
+      <svg id="votes"></svg>
+      <!-- <svg id="star"></svg> -->
+    </div>
+
+  </div>
+
+  <script src="/d3minlib/d3.min_v6.11.js"></script>
+  <script src="mini_project_2.js"></script>
+
+</body>
+
+</html>
