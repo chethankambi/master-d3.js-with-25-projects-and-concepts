@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coloring Elements</title>
+  <link rel="stylesheet" href="mini_project_1.css">
+</head>
+
+<body>
+
+  <div id="title">
+    <h1>Coloring Elements</h1>
+  </div>
+
+  <div class="buttons">
+    <button type="submit" value="select">select</button>
+    <button type="submit" value="selectall">selectAll</button>
+    <button type="submit" value="filterodd">filter-odd</button>
+    <button type="submit" value="filtereven">filter-even</button>
+  </div>
+
+  <div class="circles">
+    <svg width='400' height='100'>
+      <circle class='circle' cx='50' cy='50' r='50'></circle>
+      <circle class='circle' cx='150' cy='50' r='50'></circle>
+      <circle class='circle' cx='250' cy='50' r='50'></circle>
+      <circle class='circle' cx='350' cy='50' r='50'></circle>
+    </svg>
+  </div>
+
+  <div class="squares">
+    <svg width='400' height='100'>
+      <rect class='square' x='5' y='5' width='90' height='90'></rect>
+      <rect class='square' x='105' y='5' width='90' height='90'></rect>
+      <rect class='square' x='205' y='5' width='90' height='90'></rect>
+      <rect class='square' x='305' y='5' width='90' height='90'></rect>
+    </svg>
+  </div>
+
+  <div class="rects">
+    <svg width='400' height='100'>
+      <rect class='rectangle' x='0' y='0' width='400' height='20'></rect>
+      <rect class='rectangle' x='0' y='25' width='400' height='20'></rect>
+      <rect class='rectangle' x='0' y='50' width='400' height='20'></rect>
+      <rect class='rectangle' x='0' y='75' width='400' height='20'></rect>
+    </svg>
+  </div>
+
+  <div id='output'>
+    <h3></h3>
+  </div>
+
+  <script src="/d3minlib/d3.min_v6.11.js"></script>
+  <script src="mini_project_1.js"></script>
+
+</body>
+
+</html>
