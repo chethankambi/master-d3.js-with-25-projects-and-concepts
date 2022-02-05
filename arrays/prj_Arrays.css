@@ -1,0 +1,96 @@
+*{
+  font-family: 'Inter';
+}
+#container{
+  height: 825px;
+  width: 1000px;
+  display: inline-block;
+  position: fixed;
+  margin: auto;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  border: 1.5px dashed dimgray;
+  border-radius: 5px;
+}
+#header{
+  width: 95%;
+  height: 50px;
+  margin: auto;
+}
+#header h1{
+  font-weight: 400;
+  color:dimgray;
+  vertical-align: middle;
+  line-height: 50px;
+  margin: 0;
+}
+hr{
+  border: none;
+  border-top: 1.5px dashed dimgray;
+  margin: 0;
+}
+#charts{
+  width: 95%;
+  height: 720px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+#row1, #row2{
+  width: 100%;
+  height: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+#row1 div{
+  width: 50%;
+  height: 100%;
+  justify-content: space-between;
+}
+#row2 div{
+  width: 33%;
+  height: 100%;
+  justify-content: space-between;
+}
+p{
+  font-weight: 500;
+  font-size: 14px;
+  letter-spacing: 0.3px;
+  color: dimgray;
+  margin: 2px;
+  text-align: center;
+}
+#row1 svg{
+  width: 100%;
+  height: 90%;
+}
+#row2 svg{
+  width: 100%;
+  height: 90%;
+}
+#legend{
+  width: 95%;
+  height: 50px;
+  margin: auto;
+  display: flex;
+  justify-content: space-evenly;
+}
+#legend p{
+  width: 200px;
+  height: 20px;
+  border-radius: 5px;
+  margin: auto;
+  font-weight: 500;
+  color: dimgray;
+}
+.domain,.tick line{
+  stroke: lightgray;
+}
+.tick text{
+  fill: gray;
+  font-size: 10px;
+  font-weight: 500;
+}
